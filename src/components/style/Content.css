@@ -1,0 +1,141 @@
+.content {
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-family: 'Montserrat';
+}
+
+.content h4 {
+    text-align: center;
+}
+
+.content p {
+    text-align: center;
+}
+
+.content i {
+    color: #5B86E5;
+    margin-right: 10px;
+    transition: 0.1s;
+}
+
+.content i:hover {
+    color: #E6D545;
+}
+
+.content .resources {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mainBox .itemBox {
+    width: 45%;
+    margin: 20px auto;
+}
+
+.itemBox a {
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: #5B86E5;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.1s;
+}
+
+.itemBox a:hover {
+    color: #E6D545;
+}
+
+.itemBox span {
+    position: absolute;
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    width: 45%;
+    text-align: center;
+}
+
+@media (min-width: 700px) and (orientation: portrait) {
+    .content h2 {
+        font-size: 30px;
+    }
+
+    .content i {
+        margin-right: 15px;
+    }
+
+    .content .resources {
+        margin: 0 30px;
+    }
+
+    .mainBox .itemBox {
+        width: 30%;
+        margin-bottom: 50px;
+    }
+
+    .itemBox a {
+        font-size: 20px;
+    }
+
+    .itemBox span {
+        font-size: 11px;
+        width: 30%;
+    }
+}
+
+@media (min-width: 600px) and (orientation: landscape) {
+    .content h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: 80px;
+    }
+
+    .content i {
+        margin-right: 15px;
+    }
+
+    .content .resources {
+        margin: 0 20px;
+    }
+
+    .mainBox .itemBox {
+        width: 30%;
+        margin-bottom: 50px;
+    }
+
+    .itemBox a {
+        font-size: 20px;
+    }
+
+    .itemBox span {
+        font-size: 11px;
+        width: 30%;
+    }
+}
+
+@media (min-width: 1023px) and (orientation: landscape) {
+
+    .content .resources {
+        margin: 0 40px;
+    }
+}
+
+
+@media (min-width: 1280px) and (orientation: landscape) {
+    .content .resources {
+        margin: 0 90px;
+    }
+
+    .itemBox span {
+        font-size: 12px;
+    }
+}
